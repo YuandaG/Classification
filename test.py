@@ -306,7 +306,7 @@ class TimeSeriesAnalyzer:
         fig2.savefig('classification_results_normalized.png')
         plt.close('all')
 
-# Example usage
+
 if __name__ == "__main__":
     # Read the CSV file
     df = pd.read_csv('INPUT/data_220.csv')
